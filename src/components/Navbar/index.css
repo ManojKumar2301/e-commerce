@@ -1,0 +1,91 @@
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ul-nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Poppins";
+  cursor: pointer;
+  font-size: 90%;
+  font-weight: 600;
+  line-height: 24px;
+  flex-wrap: wrap;
+  
+ 
+}
+
+.profile-items{
+  font-family: "Poppins";
+  cursor: pointer;
+  font-size: 100%;
+  font-weight: 600;
+ 
+
+}
+
+.cart-items{
+  font-family: "Poppins";
+  cursor: pointer;
+  font-size: 100%;
+  font-weight: 600;
+  padding-left: 20px;
+
+}
+
+
+.website-logo {
+  width: 60px;
+  height: 61px;
+
+}
+
+.logo {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.logo-name {
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 26px;
+  padding-left: 15px;
+
+
+}
+
+.plant {
+  color: #F3A939;
+  border-bottom: 0.5px solid #F3A939
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.s{
+  border-width:0px;
+}
+
+.nav-item-names{
+  width:60%;
+  
+
+}
+

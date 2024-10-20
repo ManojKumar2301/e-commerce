@@ -1,0 +1,39 @@
+.footer{
+    display: flex;
+    align-items: center;
+    padding:5%;
+    background-color: #F0FFE5;
+
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    
+       
+}
+
+.footer-details{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+.footer-subscribe, .footer-about, .footer-our, .footer-useful, .footer-get-in{
+    list-style: none;
+    text-align:left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  
+}
+
+.footer-subscribe-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+

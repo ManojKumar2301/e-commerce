@@ -1,0 +1,43 @@
+.product-card {
+    width: 268px;
+
+}
+
+.product-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 268px;
+    height: 320px;
+    border: Mixed solid #0000004D
+}
+
+.wishList {
+    align-self: flex-end;
+}
+
+.image {
+    width: 255px;
+    height: 246px;
+    top: 818px;
+    left: 427px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.rating {
+    display: flex;
+}
+
+.striked-price {
+    text-decoration: line-through;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #5E5A5AB2;
+
+
+}

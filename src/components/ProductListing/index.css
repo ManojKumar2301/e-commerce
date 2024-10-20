@@ -1,0 +1,12 @@
+.filter-product-list{
+    display:flex;
+
+}
+
+.product-grid{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    
+}
+

@@ -1,0 +1,20 @@
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    width:330px;
+    border: 0px;
+}
+
+.search-image{
+    height: 19x;
+    width: 19px;
+}
+.search-leaf{
+    height: 25px;
+}
+.search-line{
+    width:370px;
+}
