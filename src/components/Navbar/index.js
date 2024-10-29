@@ -38,9 +38,11 @@ const Navbar = () => {
             <div className="cart-items">
                 <div className="cart">
                     <div className="cart-no-of-items">
-                        <p>3</p>
+                        <p class="count">3</p>
                     </div>
-                    <img src="https://res.cloudinary.com/dbedhqjpl/image/upload/v1729277020/image_2_wculcd.png" alt="cart" className="cart-image" />
+                    <div>
+                        <img src="https://res.cloudinary.com/dbedhqjpl/image/upload/v1729435644/Pngtree_shopping_cart_convenient_icon_4637407_xrkxcj.png" alt="cart" className="cart-image" />
+                    </div>
                     <p>Cart</p>
                 </div>
             </div>

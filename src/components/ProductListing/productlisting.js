@@ -33,21 +33,28 @@ const ProductListing = () => {
     return (
         <div className="filter-product-list">
             <Filter />
-            <h1>Product Listing</h1>
-            <div className="product-grid">
-                {products.map((product) => (
-                    <ProductCard
-                        key={product.name}
-                        product={product}
-                        onAddToCart={handleAddToCart}
-                    />
-                ))}
+            <div className="products">
+                <div className="sort">
+                    <p> 300 products</p>
+                    <div>
+                        <button>SORT BY <select></select></button>
+                    </div>
+                </div>
+                <div className="product-grid">
+                    {products.map((product) => (
+                        <ProductCard
+                            key={product.name}
+                            product={product}
+                            onAddToCart={handleAddToCart}
+                        />
+                    ))}
+                </div>
             </div>
             <AddToCartModal
                 show={modalShow}
                 handleClose={handleClose}
                 product={selectedProduct}
-                
+
             />
 
         </div>

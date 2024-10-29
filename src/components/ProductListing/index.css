@@ -10,3 +10,12 @@
     
 }
 
+.sort{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+.products{
+    padding:20px;
+}
